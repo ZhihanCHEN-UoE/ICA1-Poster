@@ -43,6 +43,7 @@ def step_01():
             + labs(title='Ward Occupancy Over Time', y='Number of Patients', x='Day')
             + theme_classic())
     
+    input("Press Enter to view the occupancy plot...")
     plot.show()
 
 # ============================================================================
@@ -107,6 +108,7 @@ def step_03():
                    y='Number of Patients', x='Day')
             + theme_classic())
     
+    input("Press Enter to view the occupancy plot...")
     plot.show()
 
 # ============================================================================
@@ -159,6 +161,7 @@ def track_dual_ward_occupancy(admissions, discharges, transfers):
             + labs(title='Ward Occupancy by Severity', x='Day', y='Number of Patients')
             + theme_classic())
     
+    input("Press Enter to view the occupancy plot...")
     plot.show()
     return df
 

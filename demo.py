@@ -189,9 +189,13 @@ if __name__ == "__main__":
     print("█"*70)
     
     step_01()
+    input("Press Enter to next task...")
     step_02()
+    input("Press Enter to next task...")
     step_03()
+    input("Press Enter to next task...")
     step_05()
+    input("Press Enter to next task...")
     
     print("\n" + "█"*70)
     print("Analysis Complete!".center(70))
